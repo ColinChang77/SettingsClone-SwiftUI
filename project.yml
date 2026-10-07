@@ -1,0 +1,21 @@
+name: SettingsClone
+options:
+  bundleIdPrefix: com.colinchang
+  deploymentTarget:
+    iOS: "26.0"
+targets:
+  SettingsClone:
+    type: application
+    platform: iOS
+    sources: [SettingsClone]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.colinchang.SettingsClone
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_CFBundleDisplayName: 設定
+        TARGETED_DEVICE_FAMILY: "1"
+        SWIFT_VERSION: "5.0"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        DEVELOPMENT_TEAM: ""
+        CODE_SIGN_STYLE: Automatic
