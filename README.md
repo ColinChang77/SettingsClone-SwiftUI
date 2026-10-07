@@ -11,7 +11,7 @@
 - 圖片：Asset（Apple 帳號的圓點圖示）＋ SF Symbol（所有設定圖示）
 - 多個檔案定義 view：`SettingsView`、`AccountCard`、`SettingsSection`、`SettingsRow`、`SettingIcon`、`SearchBar`
 - 用 property 客製 view：`SettingsRow(item:)`、`SettingIcon(symbol:color:)`、`AccountCard(title:subtitle:)`
-- 加分：一般模式＋Dark mode、`Text` 搭配 Markdown 連結、`clipShape`／圓角形狀、iOS 26 Liquid Glass 搜尋列
+- 加分：一般模式＋Dark mode、`Text` 搭配 Markdown 連結、iOS 26 Liquid Glass 搜尋列
 
 ## 執行
 Xcode 26，iOS 26 模擬器（iPhone 17 Pro）。打開 `SettingsClone.xcodeproj` 按 Run。
